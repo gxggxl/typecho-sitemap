@@ -73,6 +73,5 @@
 <div style="text-algin: center; font-size: 11px"><br /> &copy; <?php echo date('Y'); ?> <strong><a href="#" target="_blank"></a></strong> 版权所有<br /><br /><br />
     </div>
   </center>
-  
 </body>
 </html>
