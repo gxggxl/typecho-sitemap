@@ -50,6 +50,12 @@
       echo $output;
       ?>
     </ul>
+	  <h3>文章统计</h3>
+	    <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
+<br>文章总数：<?php $stat->publishedPostsNum() ?>篇
+<br>分类总数：<?php $stat->categoriesNum() ?>个
+<br>评论总数：<?php $stat->publishedCommentsNum() ?>条
+<br>页面总数：<?php $stat->publishedPagesNum() ?>个
   </div>
   <div id="content">
     <li class="categories">分类目录
