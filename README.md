@@ -1,8 +1,8 @@
-# typecho-sitemap
+# typecho-Sitemap
 
 一个不用插件实现的Typecho网站地图
 
-### 介绍 ###
+# 介绍
 
  - 这是一个Typecho博客程序的网站地图
 
