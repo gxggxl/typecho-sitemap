@@ -15,19 +15,19 @@
   <link rel="canonical" href="<?php $this->permalink() ?>" />
  
   <style type="text/css">
-	body {font-family: Microsoft Yahei,Verdana;font-size:13px;margin:0 auto;color: #000000;background: #ffffff;width: 990px;margin: 0 auto}
+	body {font-family: Microsoft Yahei,Verdana;font-size:12px;margin:0 auto;color: #000000;background: #ffffff;width: 990px;margin: 0 auto}
 	a:link,a:visited {color:#000;text-decoration:none;}
 	a:hover {color:#08d;text-decoration:none;}
 	h1,h2,h3,h4,h5,h6 {font-weight:normal;}
 	img {border:0;}
-	li {margin-top: 12px;}
+	li {margin-top: 11px;}
 	.page {padding: 4px; border-top: 1px #EEEEEE solid}
 	.author {background-color:#EEEEFF; padding: 6px; border-top: 1px #ddddee solid}
 	#nav, #content, #footer {padding: 8px; border: 1px solid #EEEEEE; clear: both; width: 95%; margin: auto; margin-top: 10px;}
   </style>
 </head>
 <body vlink="#333333" link="#333333">
-  <h2 style="text-align: center; margin-top: 20px"><?php $this->options->title() ?>'s SiteMap </h2>
+  <h2 style="text-align: center; margin-top: 18px"><?php $this->options->title() ?>'s SiteMap </h2>
   <center></center>
   <div id="nav"><a href="<?php $this->options ->siteUrl(); ?>"><strong><?php $this->options->title() ?></strong></a> &raquo; <a href="<?php $this->permalink() ?>">站点地图</a></div>
   <div id="content">
@@ -51,7 +51,7 @@
       ?>
     </ul>
 	  <h3>文章统计</h3>
-	    <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
+	  <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
 <br>文章总数：<?php $stat->publishedPostsNum() ?>篇
 <br>分类总数：<?php $stat->categoriesNum() ?>个
 <br>评论总数：<?php $stat->publishedCommentsNum() ?>条
