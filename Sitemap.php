@@ -13,7 +13,7 @@
   <meta name="keywords" content="站点地图,<?php $this->options->title() ?>" />
   <meta name="copyright" content="<?php $this->options->title() ?>" />
   <link rel="canonical" href="<?php $this->permalink() ?>" />
- 
+
   <style type="text/css">
 	body {font-family: Microsoft Yahei,Verdana;font-size:12px;margin:0 auto;color: #000000;background: #ffffff;width: 990px;margin: 0 auto}
 	a:link,a:visited {color:#000;text-decoration:none;}
@@ -51,11 +51,11 @@
       ?>
     </ul>
 	  <h3>文章统计</h3>
-	  <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
-<br>文章总数：<?php $stat->publishedPostsNum() ?>篇
-<br>分类总数：<?php $stat->categoriesNum() ?>个
-<br>评论总数：<?php $stat->publishedCommentsNum() ?>条
-<br>页面总数：<?php $stat->publishedPagesNum() ?>个
+	    <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
+            <br>文章总数：<?php $stat->publishedPostsNum() ?>篇
+            <br>分类总数：<?php $stat->categoriesNum() ?>个
+            <br>评论总数：<?php $stat->publishedCommentsNum() ?>条
+            <br>页面总数：<?php $stat->publishedPagesNum() ?>个
   </div>
   <div id="content">
     <li class="categories">分类目录
@@ -72,7 +72,7 @@
                  ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul>
   </div>
-  
+
   <div id="footer">查看博客首页: <strong><a href="<?php $this->options ->siteUrl(); ?>"><?php $this->options->title() ?></a></strong></div><br />
   <center>
 <div style="text-algin: center; font-size: 11px"><br /> &copy; <?php echo date('Y'); ?> <strong><a href="#" target="_blank"></a></strong> 版权所有<br /><br /><br />
