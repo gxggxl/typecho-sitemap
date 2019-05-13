@@ -4,6 +4,12 @@
 *
 * @package custom
 */
+/*
+ * @Author: LJN 
+ * @Date: 2019-05-10 00:05:07 
+ * @Last Modified by:   https://gxusb.com/ 
+ * @Last Modified time: 2019-05-10 00:05:07 
+ */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52,10 +58,10 @@
     </ul>
 	  <h3>文章统计</h3>
 	    <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
-            <br>文章总数：<?php $stat->publishedPostsNum() ?>篇
-            <br>分类总数：<?php $stat->categoriesNum() ?>个
-            <br>评论总数：<?php $stat->publishedCommentsNum() ?>条
-            <br>页面总数：<?php $stat->publishedPagesNum() ?>个
+            	<li>文章总数：<?php $stat->publishedPostsNum() ?>篇</li>
+            	<li>分类总数：<?php $stat->categoriesNum() ?>个</li>
+            	<li>评论总数：<?php $stat->publishedCommentsNum() ?>条</li>
+            	<li>页面总数：<?php $stat->publishedPagesNum() ?>个</li>
   </div>
   <div id="content">
     <li class="categories">分类目录
