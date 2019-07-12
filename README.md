@@ -1,5 +1,8 @@
 # typecho-Sitemap
 一个不用插件实现的Typecho网站地图
+
+[blog](https://gxusb.com)
+
 # 介绍
  - 这是一个Typecho博客程序的网站地图
  - 使用方法：把 `sitemap.php` 上传到 `/usr/themes/你的主题根目录` 
