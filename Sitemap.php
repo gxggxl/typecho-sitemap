@@ -3,12 +3,6 @@
  *网站地图-sitemap
  * @package custom
  */
-/*
- * @Author: LJN 
- * @Date: 2019-05-10 00:05:07 
- * @Last Modified by:   https://gxusb.com/ 
- * @Last Modified time: 2019-05-10 00:05:07 
- */
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -77,7 +71,6 @@
 
 <body vlink="#333333" link="#333333">
   <h2 style="text-align: center; margin-top: 18px"><?php $this->options->title() ?>'s SiteMap </h2>
-  <center></center>
   <div id="nav"><a href="<?php $this->options->siteUrl(); ?>"><strong><?php $this->options->title() ?></strong></a> &raquo; <a href="<?php $this->permalink() ?>">站点地图</a></div>
   <div id="content">
     <h3>最新文章</h3>
@@ -133,10 +126,8 @@
   </div>
 
   <div id="footer">查看博客首页: <strong><a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></strong></div><br />
-  <center>
     <div style="text-algin: center; font-size: 11px"><br /> &copy; <?php echo date('Y'); ?> <strong><a href="#" target="_blank"></a></strong> 版权所有<br /><br /><br />
     </div>
-  </center>
 </body>
 
 </html>
