@@ -95,7 +95,6 @@
       $output .= '</ul>';
       echo $output;
       ?>
-
     </ul>
   </div>
   <div id="content">
