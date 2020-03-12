@@ -107,7 +107,7 @@
 
   <div id="content">
     <li class="categories">单页面</li>
-    <ul class="clearfix" id="nav_menu">
+    <ul>
       <li><a href="<?php $this->options->siteUrl(); ?>">Home</a></li>
       <?php $this->widget('Widget_Contents_Page_List')
         ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
@@ -115,7 +115,7 @@
   </div>
   <div id="content">
     <li>文章统计</li>
-    <ul class="clearfix" id="nav_menu">
+    <ul>
       <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
       <li>文章总数：<?php $stat->publishedPostsNum() ?>篇</li>
       <li>分类总数：<?php $stat->categoriesNum() ?>个</li>
