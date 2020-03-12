@@ -5,7 +5,7 @@
 - [Blog](https://gxusb.com)
 - [演示](https://gxusb.com/sitemap.html)
 
-![Sitemap](https://i.loli.net/2020/03/12/GqtiPRJwO8epxFf.png)
+![sitemap](https://cdn.jsdelivr.net/gh/gxggxl/oss@master/uPic/WtbYRt.png)
 
 # 介绍
 
