@@ -13,7 +13,6 @@
   <meta name="keywords" content="站点地图,<?php $this->options->title() ?>" />
   <meta name="copyright" content="<?php $this->options->title() ?>" />
   <link rel="canonical" href="<?php $this->permalink() ?>" />
-
   <style type="text/css">
     body {
       font-family: Microsoft Yahei, Verdana;
@@ -24,40 +23,32 @@
       width: 990px;
       margin: 0 auto
     }
-
     a:link,a:visited {
       color: #000;
       text-decoration: none;
     }
-
     a:hover {
       color: #08d;
       text-decoration: none;
     }
-
     h1,h2,h3,h4,h5,h6 {
       font-weight: normal;
     }
-
     img {
       border: 0;
     }
-
     li {
       margin-top: 11px;
     }
-
     .page {
       padding: 4px;
       border-top: 1px #EEEEEE solid
     }
-
     .author {
       background-color: #EEEEFF;
       padding: 6px;
       border-top: 1px #ddddee solid
     }
-
     #nav,#content,#footer {
       padding: 8px;
       border: 1px solid #EEEEEE;
