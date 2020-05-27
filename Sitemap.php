@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 
-<head profile="http://gmpg.org/xfn/11">
+<head>
   <meta http-equiv="Content-Type" content="text/html; charset=<?php $this->options->charset(); ?>" />
   <title>站点地图 - <?php $this->options->title() ?></title>
   <meta name="keywords" content="站点地图,<?php $this->options->title() ?>" />
