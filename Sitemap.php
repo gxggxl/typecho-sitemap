@@ -5,7 +5,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=<?php $this->options->charset(); ?>"/>
@@ -43,17 +43,6 @@
 
 		li {
 			margin-top: 11px;
-		}
-
-		.page {
-			padding: 4px;
-			border-top: 1px #EEEEEE solid
-		}
-
-		.author {
-			background-color: #EEEEFF;
-			padding: 6px;
-			border-top: 1px #ddddee solid
 		}
 
 		#nav, #content, #footer {
@@ -96,24 +85,25 @@
     </ul>
 </div>
 <div id="content">
-    <li class="categories">分类目录
-        <ul><?php $this->widget('Widget_Metas_Category_List')
+    <ul><li class="categories">分类目录
+        <?php $this->widget('Widget_Metas_Category_List')
 				->parse('<li><a href="{permalink}">{name}</a> ({count})</li>'); ?>
-        </ul>
+
     </li>
+    </ul>
 </div>
 
 <div id="content">
-    <li class="categories">单页面</li>
     <ul>
+    <li class="categories">单页面</li>
         <li><a href="<?php $this->options->siteUrl(); ?>">Home</a></li>
 		<?php $this->widget('Widget_Contents_Page_List')
 			->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul>
 </div>
 <div id="content">
-    <li>文章统计</li>
     <ul>
+    <li>文章统计</li>
 		<?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
         <li>文章总数：<?php $stat->publishedPostsNum() ?>篇</li>
         <li>分类总数：<?php $stat->categoriesNum() ?>个</li>
