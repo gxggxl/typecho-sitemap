@@ -6,6 +6,8 @@
  -->
 # typecho-Sitemap
 
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gxggxl)
+
 一个不用插件实现的Typecho网站地图
 
 - [Blog](https://gxusb.com)
