@@ -1,3 +1,4 @@
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gxggxl)
 <!--
  * @Author       : gxggxl
  * @Date         : 2020-03-12 10:01:20
@@ -6,7 +7,6 @@
  -->
 # typecho-Sitemap
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gxggxl)
 
 一个不用插件实现的Typecho网站地图
 
